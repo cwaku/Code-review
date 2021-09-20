@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+.myprojects a {
+  text-decoration: none;
+}
+
 #navbar ul {
   display: flex;
   list-style: none;
@@ -25,10 +29,6 @@
 #navbar a {
   text-decoration: none;
   color: #f0f0f0;
-}
-
-.myprojects a {
-  text-decoration: none;
 }
 
 #navbar li:hover {
@@ -96,7 +96,6 @@
 .myprojects {
   padding: 2.5rem;
 }
-
 
 #shows {
   margin: 5rem;
